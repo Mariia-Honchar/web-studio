@@ -43,6 +43,11 @@ p {
   margin: 0px;
 }
 
+.ul{
+  padding-left: 0px;
+}
+
+
 .conteiner {
   width: 1200px;
   padding-left: 15px;
@@ -52,6 +57,18 @@ p {
 }
 
 /* header */
+.header{
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+.header > .conteiner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
   color: #2196f3;
   font-family: "Raleway", sans-serif;
@@ -65,6 +82,19 @@ p {
   color:#000;
 }
 
+.header-style:hover,
+.header-style:focus{
+color: var(--accent-color);
+}
+
+.header-list{
+  display: flex;
+}
+
+.header-list > .item:not(:first-child){
+  margin-left: 50px;
+}
+
 .header-menu {
   color: var(--minor-color);
   font-size: 14px;
@@ -73,6 +103,19 @@ p {
   line-height: normal;
   letter-spacing: 0.28px;
 }
+
+.header-menu:hover,
+.header-menu:focus{
+  color: var(--accent-color);
+}
+
+.header-ct-list{
+  display: flex;
+}
+.header-ct-list >.item:not(:first-child) {
+ margin-left: 50px;
+}
+
 .header-ct {
   color: var(--basic-color);
   font-size: 14px;
@@ -80,6 +123,11 @@ p {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+}
+
+.header-ct:hover,
+.header-ct:focus {
+  color: var(--accent-color);
 }
 
 /* Hero */
@@ -264,6 +312,12 @@ border-radius: 4px;
 background-color:var(--colorbg-team);
 
 padding: 6px 22px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+  color: #fff;
+  background-color: var(--accent-color);
 }
 
 .portfolio-list-projekt{
