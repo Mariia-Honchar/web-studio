@@ -191,8 +191,14 @@ cursor:pointer;
 
 .advantage-list{
   padding-left: 0px;
+  gap: 30px;
+  flex-wrap: wrap;
 
   display: flex;
+}
+
+.advantage-list >.item{
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .advantage-title {
@@ -234,8 +240,15 @@ cursor:pointer;
 
 .our-work-list{
   padding-left: 0px;
+  flex-wrap: wrap;
+  gap: 30px;
+
 
   display: flex;
+}
+
+.our-work-list >.item{
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 /* Наша команда */
@@ -265,6 +278,14 @@ cursor:pointer;
   padding-left: 0px;
 
   display: flex;
+
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+
+.team-list >.item{
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .team-name {
@@ -338,7 +359,11 @@ padding: 6px 22px;
   display: flex;
   flex-wrap: wrap;
   padding-left: 0px;
+  gap: 30px;
+}
 
+.portfolio-list-projekt >.item{
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-title{
