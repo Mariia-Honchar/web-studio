@@ -43,8 +43,14 @@ p {
   margin: 0px;
 }
 
-.ul{
+ul{
   padding-left: 0px;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -221,6 +227,71 @@ cursor:pointer;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
 }
+
+.advantage-list> .item:nth-child(1)::before{
+  content:"";
+  background-image: url(../photo3/antenna.png);
+    margin-bottom: 30px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    padding: 55px 100px;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    display: block;
+}
+
+.advantage-list>.item:nth-child(2)::before {
+  content: "";
+  background-image: url(../photo3/clock.png);
+  margin-bottom: 30px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    padding: 55px 100px;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    display: block;
+  }
+
+.advantage-list>.item:nth-child(3)::before {
+  content: "";
+  background-image: url(../photo3/diagram.png);
+  margin-bottom: 30px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    padding: 55px 100px;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    display: block;
+}
+
+.advantage-list>.item:nth-child(4)::before {
+  content: "";
+  background-image: url(../photo3/astronaut.png);
+  margin-bottom: 30px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    padding: 55px 100px;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    display: block;
+}
+
 /* Чим ми займаємося */
 .our-work {
   padding-bottom: 94px;
@@ -286,6 +357,10 @@ cursor:pointer;
 
 .team-list >.item{
   flex-basis: calc((100% - 90px) / 4);
+  border-radius: 0px 0px 4px 4px;
+    background-color: #fff;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .team-name {
@@ -296,9 +371,6 @@ cursor:pointer;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
-
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 
 .team-text {
@@ -309,6 +381,10 @@ cursor:pointer;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
+}
+
+.team-box{
+  padding: 30px 60px;
 }
 
 /* Портфоліо */
@@ -352,6 +428,8 @@ padding: 6px 22px;
 .portfolio-btn:focus{
   color: #fff;
   background-color: var(--accent-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-list-projekt{
@@ -364,6 +442,14 @@ padding: 6px 22px;
 
 .portfolio-list-projekt >.item{
   flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #eee;
+    background-color: #fff;
+}
+
+.portfolio-list-projekt>.item:hover,
+.portfolio-list-projekt>.item:focus{
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-title{
@@ -382,6 +468,10 @@ padding: 6px 22px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.48px;
+}
+
+.portfolio-box{
+  padding: 20px 24px;
 }
 
 /* footer */
