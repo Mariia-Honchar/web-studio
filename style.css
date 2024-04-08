@@ -564,6 +564,13 @@ padding: 6px 22px;
   background-color: var(--bg-color);
 }
 
+.footer > .conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 70px;
+}
+
 .footer-logo {
   color: var(--footer-color);
 }
@@ -610,6 +617,7 @@ letter-spacing: 0.03em;
 padding-left: 400px;
 padding-bottom: 20px;
 color: var(--footer-color);
+text-transform: uppercase;
 }
 
 .footer-list{
