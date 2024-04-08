@@ -426,7 +426,7 @@ cursor:pointer;
   .clients-item{
     width: 170px;
     height: 90px;
-    padding: 20px 62px;
+    padding: 16px 32px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
   }
@@ -603,3 +603,32 @@ padding: 6px 22px;
 .footer-ctn:focus{
   color: var(--accent-color);
 }
+
+.footer-title{
+  font-weight: 700;
+letter-spacing: 0.03em;
+padding-left: 400px;
+padding-bottom: 20px;
+color: var(--footer-color);
+}
+
+.footer-list{
+  display: flex;
+  gap: 30px;
+  padding-left: 400px;  
+}
+
+.footer-social{
+
+}
+
+.footer-link{
+
+}
+
+.footer-svg{
+  fill: var(--footer-color);
+}
+
+
+
