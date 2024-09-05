@@ -680,33 +680,32 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
-  height: 400px;
-  padding: 47px 15px 15px 15px;
-  background-color: rgba(59, 50, 38, 0.525);
-  border-radius: 20px;
-}
-
-img{
-  max-width: 100%;
-  display: block;
-  border-radius: 5px;
+  width: 528px;
+  height: 581px;
+  padding: 40px;
+  background-color: var(--footer-color);
+  border-radius: 4px;
 }
 
 .btn{
+  width: 30px;
+  height: 30px;
   position: absolute;
-  top: 20px;
+  top: 8px;
+  right: 8;
   text-align: center;
   transition: 0.5s;
-  background-size: 200% auto;
-  color: rgb(255, 255, 255);
-  background-color: rgb(88, 70, 70);
-  /* box-shadow: 0 0 20px #eee; */
-  border-radius: 10px;
-  /* background-image: linear-gradient(to right, #4f4b4ae8 0%, #691612fa 51%, #003CC5 100%);
-  border-color: black; */
+  color: gray;
+  background-color: transparent;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
-.text{
-  color: rgb(255, 251, 251);
+.modal-tatle{
+  font-weight: 700;
+  font-size: 20;
+  letter-spacing: 0.03mm;
+  text-align: center;
+  color: var(--minor-color);
+  margin-bottom: 12px;
 }

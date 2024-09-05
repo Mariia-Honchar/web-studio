@@ -24,8 +24,16 @@
             </nav>
     
             <ul class="header-ct-list">
-                <li class="item"><a href="emailto:info@devstudio.com" class="header-ct">info@devstudio.com</a></li>
-                <li class="item"><a href="tel:+38 096 111 11 11" class="header-ct">+38 096 111 11 11</a></li>
+                <li class="item"><a href="emailto:info@devstudio.com" class="header-ct">
+                    <svg width="16" height="12" class="header-svg">
+                        <use href="./svg/symbol-defs.svg#icon-envelope-hover-1"></use>
+                    </svg>
+                    info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+38 096 111 11 11" class="header-ct">
+                    <svg width="10" height="16" class="header-svg">
+                        <use href="./svg/symbol-defs.svg#icon-smartphone-1"></use>
+                    </svg>
+                    +38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -36,15 +44,47 @@
     <section class="hero">
         <div class="conteiner">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero-btn">Замовити послугу</button>
+        <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button class="btn" data-modal-close>Close</button>
-                <img src="./gfh.jpg" alt="Ghost">
-                <p class="text">Levi is a soldier assigned to the Special Operations Squad of the Reconnaissance Corps, also known as Levi Squad, a squad of four elite soldiers with impressive combat records handpicked by him.</p>
+                <button class="btn" data-modal-close>x</button>
+                <form class="modal-form">
+                    <p class="modal-tatle">Залиште свої дані, ми вам передзвонимо</p>
+                    <div class="modal-filt">
+                        <label class="modal-label" for="name">Ім'я</label>
+                        <input type="text" class="modal-inut" name="name" id="name" required>
+                        <svg class="modal-icon">
+                            <use href=""></use>
+                        </svg>
+                    </div> 
+                    <div class="modal-filt">
+                        <label class="modal-label" for="tel">Телефон</label>
+                        <input type="tel" class="modal-inut" name="tel" id="tel" required>
+                        <svg class="modal-icon">
+                            <use href=""></use>
+                        </svg>
+                    </div>
+                    <div class="modal-filt">
+                        <label class="modal-label" for="email">Пошта</label>
+                        <input type="email" class="modal-inut" name="email" id="email" required>
+                        <svg class="modal-icon">
+                            <use href=""></use>
+                        </svg>
+                    </div> 
+                    <div class="modal-fild">
+                        <label for="comment" class="modal-label" required>Коментар</label>
+                        <textarea name="comment" id="comment" cols="30" rows="10" class="comment" placeholder="Введіть текст"></textarea>
+                    </div>
+                    <label class="modal-policy">
+                        <input type="checkbox" class="modal-policy-checkbox" id="policy" required>
+                        <span class="modal-policy-text">Погоджуюся з розсилкою та приймаю
+                            <a href="#" class="modal-policy-link">Умови договору</a>
+                        </span>
+                    </label>
+                    <button class="modal-btn" type="submit">Відправити</button>
+                </form>
             </div>
     </div>
-    <script src="./script.js"></script>
     </section>
      <!--Наші переваги-->
      <section class="advantage">
@@ -336,5 +376,6 @@
         </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
