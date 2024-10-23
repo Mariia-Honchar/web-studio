@@ -89,6 +89,8 @@ img {
 .header-style:hover,
 .header-style:focus {
   color: var(--accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .header-list {
@@ -125,6 +127,8 @@ img {
 .header-menu:hover,
 .header-menu:focus {
   color: var(--accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .header-ct-list {
@@ -146,6 +150,8 @@ img {
 .header-ct:hover,
 .header-ct:focus {
   color: var(--accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .header-svg{
@@ -211,6 +217,8 @@ img {
 .hero-btn:focus {
   color: #2196f3;
   background-color: #fff;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
 }
 
 /* Наші переваги */
@@ -436,6 +444,8 @@ img {
 .social-link:focus {
   fill: #fff;
   background-color: var(--accent-color);
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
 }
 
 /*Постійні клієнти*/
@@ -457,6 +467,8 @@ img {
 .clients-item:focus {
   border-color: var(--accent-color);
   cursor: pointer;
+  transition-property: border-color;
+  transition-duration: 250ms;
 }
 
 .clients-title {
@@ -489,6 +501,8 @@ img {
 .clients-svg:hover,
 .clients-svg:focus {
   fill: var(--accent-color);
+  transition-property: fill;
+  transition-duration: 250ms;
 }
 
 /* Портфоліо */
@@ -533,6 +547,8 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    transition-property: background-color, color;
+    transition-duration: 250ms;
 }
 
 .portfolio-list-projekt {
@@ -598,6 +614,8 @@ img {
 .footer-logo:hover,
 .footer-logo:focus {
   color: var(--accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .footer-addr {
@@ -613,6 +631,8 @@ img {
 .footer-addr:hover,
 .footer-addr:focus {
   color: var(--accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .footer-ctn {
@@ -629,6 +649,8 @@ img {
 .footer-ctn:hover,
 .footer-ctn:focus {
   color: var(--accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .footer-title {
@@ -663,6 +685,8 @@ img {
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: var(--accent-color);
+  transition-property: background-color;
+  transition-duration: 250ms;
 }
 
 .footer-svg {
@@ -747,6 +771,8 @@ transition: border-color 250ms ease;
 .modal-inut:focus{
   outline: none;
   border-color: #2196F3;
+  transition-property: border-color;
+  transition-duration: 250ms;
 }
 
 .modal-btn{
@@ -767,6 +793,8 @@ line-height: 1.87;
 
 .modal-btn:hover,.modal-btn:focus{
   background-color: #188ce8;
+  transition-property: background-color;
+  transition-duration: 250ms;
 }
 
 .btn{
@@ -787,6 +815,8 @@ line-height: 1.87;
 .btn:hover, .btn:focus{
   border: 1px solid #2196F3;
   color: #2196F3;
+  transition-property: border, color;
+  transition-duration: 250ms;
 }
 
 .modal-filt{
@@ -805,6 +835,8 @@ line-height: 1.87;
 
 .modal-inut:focus+.modal-icon{
   fill: #2196F3;
+  transition-property: fill;
+  transition-duration: 250ms;
 }
 
 .comment{
@@ -822,6 +854,8 @@ line-height: 1.87;
 .comment:focus{
   outline: none;
   border-color: #2196F3;
+  transition-property: border-color;
+  transition-duration: 250ms;
 }
 
 .modal-policy{
@@ -871,6 +905,7 @@ transform: translateY(100%);
 .portfolio-item:hover .product-actions{
   opacity: 1;
   transform: translateY(0%);
+  transition-duration: 250ms;
 }
 
 .portfolio-wrap{
