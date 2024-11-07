@@ -667,6 +667,7 @@ img {
   margin-bottom: 20px;
   color: var(--footer-color);
   text-transform: uppercase;
+  font-size: 14px
 }
 
 .social-list-footer {
@@ -943,4 +944,47 @@ img {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+
+.footer-form-title{
+  color: #FFFFFF;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 14px
+}
+.footer-form-filt{
+display: flex;
+}
+
+.footer-btn{
+border-radius: 4px;
+width: 200px;
+height: 50px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #2196f3;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+text-align: center;
+color: #fff;
+}
+
+.input{
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+background-color: rgba(33, 150, 243, 0);
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+width: 358px;
+height: 50px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+padding-left: 12px;
+margin-right: 10px;
 }
