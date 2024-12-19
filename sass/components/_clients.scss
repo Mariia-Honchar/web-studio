@@ -1,0 +1,56 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .clients-item {
+    min-width: 170px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $clients-border;
+    border-radius: 4px;
+  }
+  
+  .clients-item:hover,
+  .clients-item:focus {
+    border-color: $accent-color;
+    cursor: pointer;
+    transition-property: border-color;
+    transition-duration: 250ms;
+  }
+  
+  .clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $minor-color;
+  }
+  
+  .clients-list {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 215px;
+    padding-right: 215px;
+  }
+  
+  .clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clients-svg {
+    fill: $basic-color;
+  }
+  
+  .clients-svg:hover,
+  .clients-svg:focus {
+    fill: $accent-color;
+    transition-property: fill;
+    transition-duration: 250ms;
+  }

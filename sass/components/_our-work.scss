@@ -1,0 +1,27 @@
+.our-work {
+    padding-bottom: 94px;
+  }
+  
+  .our-work-title {
+    color: $minor-color;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+  
+    margin-bottom: 50px;
+  }
+  
+  .our-work-list {
+    padding-left: 0px;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+    display: flex;
+  }
+  
+  .our-work-list > .item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
