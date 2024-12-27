@@ -2,8 +2,8 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  
-  .portfolio-list-btn {
+
+  .portfolio__list-btn {
     margin-bottom: 50px;
     padding-left: 0px;
     display: flex;
@@ -15,7 +15,7 @@
      margin-left: 8px;
     } */
   
-  .portfolio-btn {
+  .portfolio__btn {
     color: $minor-color;
     text-align: center;
     font-size: 16px;
@@ -31,8 +31,8 @@
     transition: background-color 250ms ease, color 250ms ease;
   }
   
-  .portfolio-btn:hover,
-  .portfolio-btn:focus {
+  .portfolio__btn:hover,
+  .portfolio__btn:focus {
     color: $footer-color;
     background-color: $accent-color;
     box-shadow: 0px 2px 2px 0px $portfolio-btn,
@@ -41,7 +41,7 @@
     transition-duration: 250ms;
   }
   
-  .portfolio-list-projekt {
+  .portfolio__list-projekt {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -49,19 +49,19 @@
     gap: 30px;
   }
   
-  .portfolio-list-projekt > .item {
+  .portfolio__list-projekt > .item {
     flex-basis: calc((100% - 60px) / 3);
     border: 1px solid $border-color;
     background-color: $footer-color;
   }
   
-  .portfolio-list-projekt > .item:hover,
-  .portfolio-list-projekt > .item:focus {
+  .portfolio__list-projekt > .item:hover,
+  .portfolio__list-projekt > .item:focus {
     box-shadow: 1px 4px 6px 0px $portfolio-list,
       0px 4px 4px 0px $portfolio-color, 0px 1px 1px 0px $portfolio-btn;
   }
   
-  .portfolio-title {
+  .portfolio__title {
     color: $minor-color;
     font-size: 18px;
     font-style: normal;
@@ -70,7 +70,7 @@
     letter-spacing: 1.08px;
   }
   
-  .portfolio-text {
+  .portfolio__text {
     color: $basic-color;
     font-size: 16px;
     font-style: normal;
@@ -79,32 +79,32 @@
     letter-spacing: 0.48px;
   }
   
-  .portfolio-box {
+  .portfolio__box {
     padding: 20px 24px;
   }
   
-  .portfolio-item:hover,
-  .portfolio-item:focus {
+  .portfolio__item:hover,
+  .portfolio__item:focus {
     box-shadow: 0px 1px 1px $portfolio-item, 0px 4px 4px $portfolio-item-color,
       1px 4px 6px $portfolio-item-box;
   }
 
-  .portfolio-item:hover .product-actions {
+  .portfolio__item:hover .product__actions {
     opacity: 1;
     transform: translateY(0%);
     transition-duration: 250ms;
   }
   
-  .portfolio-wrap {
+  .portfolio__wrap {
     position: relative;
     overflow: hidden;
   }
 
-  .activity-overley {
+  .activity__overley {
     position: relative;
   }
 
-  .activity-overley-title {
+  .activity__overley-title {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -123,7 +123,7 @@
     letter-spacing: 0.03em;
   }
 
-  .product-actions {
+  .product__actions {
     position: absolute;
     width: 100%;
     height: 100%;

@@ -18,26 +18,26 @@
     line-height: normal;
     letter-spacing: 0.78px;
   }
-  .header-style {
+  .header__style {
     color: $header-style;
   }
   
-  .header-style:hover,
-  .header-style:focus {
+  .header__style:hover,
+  .header__style:focus {
     color: $accent-color;
     transition-property: color;
     transition-duration: 250ms;
   }
   
-  .header-list {
+  .header__list {
     display: flex;
   }
   
-  .header-list > .item:not(:first-child) {
+  .header__list > .item:not(:first-child) {
     margin-left: 50px;
   }
   
-  .header-menu {
+  .header__menu {
     color: $minor-color;
     font-size: 14px;
     font-style: normal;
@@ -47,7 +47,7 @@
     position: relative;
   }
   
-  .header-menu.current::after {
+  .header__menu.current::after {
     content: "";
     display: block;
     background-color: $accent-color;
@@ -59,21 +59,21 @@
     bottom: -32px;
   }
   
-  .header-menu:hover,
-  .header-menu:focus {
+  .header__menu:hover,
+  .header__menu:focus {
     color: $accent-color;
     transition-property: color;
     transition-duration: 250ms;
   }
   
-  .header-ct-list {
+  .header__ct-list {
     display: flex;
   }
-  .header-ct-list > .item:not(:first-child) {
+  .header__ct-list > .item:not(:first-child) {
     margin-left: 50px;
   }
   
-  .header-ct {
+  .header__ct {
     color: $basic-color;
     font-size: 14px;
     font-style: normal;
@@ -82,14 +82,14 @@
     letter-spacing: 0.28px;
   }
   
-  .header-ct:hover,
-  .header-ct:focus {
+  .header__ct:hover,
+  .header__ct:focus {
     color: $accent-color;
     transition-property: color;
     transition-duration: 250ms;
   }
   
-  .header-svg {
+  .header__svg {
     margin-right: 10px;
     fill: currentColor;
   }

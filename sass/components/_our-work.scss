@@ -2,7 +2,7 @@
     padding-bottom: 94px;
   }
   
-  .our-work-title {
+  .our-work__title {
     color: $minor-color;
     text-align: center;
     font-size: 36px;
@@ -14,7 +14,7 @@
     margin-bottom: 50px;
   }
   
-  .our-work-list {
+  .our-work__list {
     padding-left: 0px;
     flex-wrap: wrap;
     gap: 30px;
@@ -22,6 +22,6 @@
     display: flex;
   }
   
-  .our-work-list > .item {
+  .our-work__list > .our-work__item {
     flex-basis: calc((100% - 60px) / 3);
   }

@@ -3,7 +3,7 @@
     padding-bottom: 94px;
   }
   
-  .clients-item {
+  .clients__item {
     min-width: 170px;
     height: 90px;
     display: flex;
@@ -13,15 +13,15 @@
     border-radius: 4px;
   }
   
-  .clients-item:hover,
-  .clients-item:focus {
+  .clients__item:hover,
+  .clients__item:focus {
     border-color: $accent-color;
     cursor: pointer;
     transition-property: border-color;
     transition-duration: 250ms;
   }
   
-  .clients-title {
+  .clients__title {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.03em;
@@ -29,7 +29,7 @@
     color: $minor-color;
   }
   
-  .clients-list {
+  .clients__list {
     justify-content: center;
     display: flex;
     gap: 30px;
@@ -38,18 +38,18 @@
     padding-right: 215px;
   }
   
-  .clients-link {
+  .clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .clients-svg {
+  .clients__svg {
     fill: $basic-color;
   }
   
-  .clients-svg:hover,
-  .clients-svg:focus {
+  .clients__svg:hover,
+  .clients__svg:focus {
     fill: $accent-color;
     transition-property: fill;
     transition-duration: 250ms;
