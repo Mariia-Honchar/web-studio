@@ -91,3 +91,249 @@
   .social__link:focus {
     fill: $footer-color;
   }
+
+  // @media screen and (min-width: 768px){
+  //   .team {
+  //     background-color: $colorbg-team;
+    
+  //     padding-top: 123px;
+  //     padding-bottom: 60px;
+  //   }
+
+  //   .team__list{
+
+  //   }
+  // }
+
+
+
+
+@media screen and (min-width: 1200px) {
+  .team {
+    background-color: $colorbg-team;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .team__title {
+    color: $minor-color;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+
+  .team__list {
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .team__list > .item {
+    flex-basis: calc((100% - 90px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    background-color: $footer-color;
+    box-shadow: 0px 2px 1px 0px $team-list,
+      0px 1px 1px 0px $team-list-color, 0px 1px 3px 0px $portfolio-btn;
+  }
+
+  .team__name {
+    color: $minor-color;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+  }
+
+  .team__text {
+    color: $basic-color;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+  }
+
+  .team__box {
+    padding: 30px 60px 16px 61px;
+  }
+
+  .social__list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .social__item {
+    width: 44px;
+    height: 44px;
+    transition-property: background-color;
+    background-color: transparent;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50%;
+  }
+
+  .social__item:hover {
+    background-color: $accent-color;
+  }
+
+  .social__link {
+    width: 100%;
+    height: 100%;
+    fill: $social-link;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social__link:hover,
+  .social__link:focus {
+    fill: $footer-color;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .team__list {
+    gap: 20px;
+  }
+
+  .team__list > .item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+
+  .team__title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .teamname, .teamtext {
+    font-size: 14px; 
+  }
+}
+
+
+@media screen and (max-width: 480px){
+ /* Секция, которая содержит карточки */
+.team {
+  width: 480px;
+  height: 2761px;
+  top: 1574px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: $colorbg-team;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* Заголовок секции */
+.team__title {
+  color: $minor-color;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+
+/* Контейнер карточек */
+.team__list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column; 
+  gap: 30px;  
+ }
+
+/* Карточка */
+.team__list > .item {
+  width: 450px;  /* ширина карточки */
+  height: 622px;  /* высота карточки */
+  margin-top: 30px;  /* отступ сверху у каждой карточки */
+  margin-bottom: 30px;  /* отступ снизу у каждой карточки */
+  margin-left: 15px;  /* отступ слева у каждой карточки */
+  margin-right: 15px;  /* отступ справа у каждой карточки */
+  border-radius: 0px 0px 4px 4px;
+  background-color: $footer-color;
+  box-shadow: 0px 2px 1px 0px $team-list,
+    0px 1px 1px 0px $team-list-color, 0px 1px 3px 0px $portfolio-btn;
+}
+
+/* Имя карточки */
+.team__name {
+  color: $minor-color;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+/* Текст под именем карточки */
+.team__text {
+  color: $basic-color;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+/* Контейнер для текста и иконок */
+.team__box {
+  padding: 30px 60px 16px 61px;
+}
+
+/* Список социальных иконок */
+.social__list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+/* Каждая иконка */
+.social__item {
+  width: 44px;
+  height: 44px;
+  transition-property: background-color;
+  background-color: transparent;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+}
+
+/* Ховер для иконок */
+.social__item:hover {
+  background-color: $accent-color;
+}
+
+/* Ссылка на социальные иконки */
+.social__link {
+  width: 100%;
+  height: 100%;
+  fill: $social-link;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ховер и фокус на ссылке */
+.social__link:hover,
+.social__link:focus {
+  fill: $footer-color;
+}
+}

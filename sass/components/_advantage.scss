@@ -106,6 +106,14 @@
     .advantage__item{
       width: 354px;
     }
+    .advantage__list{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .advantage__subtitle{
+      text-align: left;
+    }
   }
 
 
@@ -137,9 +145,5 @@
     
     .advantage__list > .advantage__item {
       flex-basis: calc((100% - 90px) / 4);
-    }
-    
-    .advantage__subtitle {
-      text-align: left;
     }
   }

@@ -1,5 +1,10 @@
-.our-work {
+.our-work{
+  display: none;
+}
+@media screen and (min-width: 1200px){
+  .our-work {
     padding-bottom: 94px;
+    display: block;
   }
   
   .our-work__title {
@@ -25,3 +30,5 @@
   .our-work__list > .our-work__item {
     flex-basis: calc((100% - 60px) / 3);
   }
+}
+
