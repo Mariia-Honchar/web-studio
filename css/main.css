@@ -32,13 +32,23 @@ img {
 }
 
 .conteiner {
-  width: 1200px;
+  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    width: 1200px;
+  }
+}
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -481,8 +491,7 @@ img {
 }
 
 .advantage__item {
-  min-width: 290px;
-  max-width: 450px;
+  width: 450px;
 }
 
 .advantage__subtitle {
@@ -494,6 +503,7 @@ img {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .advantage__text {
@@ -571,6 +581,11 @@ img {
   display: block;
 }
 
+@media screen and (min-width: 768px) {
+  .advantage__item {
+    width: 354px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .advantage {
     padding-top: 94px;
@@ -591,6 +606,10 @@ img {
     gap: 30px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -600,86 +619,7 @@ img {
         flex-basis: calc((100% - 90px) / 4);
   }
   .advantage__subtitle {
-    color: #212121;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  .advantage__text {
-    color: #757575;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 171.429% */
-    letter-spacing: 0.42px;
-  }
-  .advantage__list > .advantage__item:nth-child(1)::before {
-    content: "";
-    background-image: url(../photo3/antenna.png);
-    margin-bottom: 30px;
-    background-color: #f5f4fa;
-    border-radius: 4px;
-    padding: 55px 100px;
-    min-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
-    display: block;
-  }
-  .advantage__list > .advantage__item:nth-child(2)::before {
-    content: "";
-    background-image: url(../photo3/clock.png);
-    margin-bottom: 30px;
-    background-color: #f5f4fa;
-    border-radius: 4px;
-    padding: 55px 100px;
-    min-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
-    display: block;
-  }
-  .advantage__list > .advantage__item:nth-child(3)::before {
-    content: "";
-    background-image: url(../photo3/diagram.png);
-    margin-bottom: 30px;
-    background-color: #f5f4fa;
-    border-radius: 4px;
-    padding: 55px 100px;
-    min-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
-    display: block;
-  }
-  .advantage__list > .advantage__item:nth-child(4)::before {
-    content: "";
-    background-image: url(../photo3/astronaut.png);
-    margin-bottom: 30px;
-    background-color: #f5f4fa;
-    border-radius: 4px;
-    padding: 55px 100px;
-    min-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
-    display: block;
+    text-align: left;
   }
 }
 .our-work {
