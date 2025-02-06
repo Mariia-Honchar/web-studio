@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -666,19 +665,19 @@ img {
 }
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .team__title {
   color: #212121;
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .team__list {
@@ -772,235 +771,6 @@ img {
   fill: #fff;
 }
 
-@media screen and (min-width: 1200px) {
-  .team {
-    background-color: #f5f4fa;
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  .team__title {
-    color: #212121;
-    text-align: center;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
-    margin-bottom: 50px;
-  }
-  .team__list {
-    padding-left: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 30px;
-  }
-  .team__list > .item {
-    -ms-flex-preferred-size: calc((100% - 90px) / 4);
-        flex-basis: calc((100% - 90px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    background-color: #fff;
-    -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-            box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  }
-  .team__name {
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.48px;
-  }
-  .team__text {
-    color: #757575;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.48px;
-  }
-  .team__box {
-    padding: 30px 60px 16px 61px;
-  }
-  .social__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
-  }
-  .social__item {
-    width: 44px;
-    height: 44px;
-    -webkit-transition-property: background-color;
-    transition-property: background-color;
-    background-color: transparent;
-    -webkit-transition-duration: 250ms;
-            transition-duration: 250ms;
-    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 50%;
-  }
-  .social__item:hover {
-    background-color: #2196f3;
-  }
-  .social__link {
-    width: 100%;
-    height: 100%;
-    fill: #afb1b8;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .social__link:hover,
-  .social__link:focus {
-    fill: #fff;
-  }
-}
-@media screen and (min-width: 768px) {
-  .team__list {
-    gap: 20px;
-  }
-  .team__list > .item {
-    -ms-flex-preferred-size: calc((100% - 60px) / 3);
-        flex-basis: calc((100% - 60px) / 3);
-  }
-  .team__title {
-    font-size: 32px;
-    margin-bottom: 40px;
-  }
-  .teamname, .teamtext {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* Секция, которая содержит карточки */
-  .team {
-    width: 480px;
-    height: 2761px;
-    top: 1574px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: #f5f4fa;
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  /* Заголовок секции */
-  .team__title {
-    color: #212121;
-    text-align: center;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
-    margin-bottom: 50px;
-  }
-  /* Контейнер карточек */
-  .team__list {
-    padding-left: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 30px;
-  }
-  /* Карточка */
-  .team__list > .item {
-    width: 450px;
-    height: 622px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border-radius: 0px 0px 4px 4px;
-    background-color: #fff;
-    -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-            box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  }
-  .team__name {
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.48px;
-  }
-  .team__text {
-    color: #757575;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.48px;
-  }
-  /* Список социальных иконок */
-  .social__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
-  }
-  /* Каждая иконка */
-  .social__item {
-    width: 44px;
-    height: 44px;
-    -webkit-transition-property: background-color;
-    transition-property: background-color;
-    background-color: transparent;
-    -webkit-transition-duration: 250ms;
-            transition-duration: 250ms;
-    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 50%;
-  }
-  /* Ховер для иконок */
-  .social__item:hover {
-    background-color: #2196f3;
-  }
-  /* Ссылка на социальные иконки */
-  .social__link {
-    width: 100%;
-    height: 100%;
-    fill: #afb1b8;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  /* Ховер и фокус на ссылке */
-  .social__link:hover,
-  .social__link:focus {
-    fill: #fff;
-  }
-}
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
