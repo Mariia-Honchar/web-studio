@@ -941,6 +941,22 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__logo {
@@ -1002,6 +1018,7 @@ img {
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
+  text-align: center;
 }
 
 .social__list-footer {
@@ -1101,6 +1118,17 @@ img {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__box-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 179px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer {
     padding-top: 60px;
@@ -1144,6 +1172,21 @@ img {
     -webkit-transition-duration: 250ms;
             transition-duration: 250ms;
   }
+  .footer__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer__box-wrap {
+    gap: 70px;
+  }
   .footer__ctn {
     color: rgba(255, 255, 255, 0.6);
     font-family: Roboto;
@@ -1169,6 +1212,7 @@ img {
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
+    text-align: left;
   }
   .social__list-footer {
     display: -webkit-box;
@@ -1214,11 +1258,16 @@ img {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 14px;
+    text-align: left;
   }
   .footer__form-filt {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .footer__btn {
     border-radius: 4px;
