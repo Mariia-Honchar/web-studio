@@ -308,7 +308,7 @@ img {
   padding-top: 118px;
   padding-bottom: 118px;
   background-color: #2f303a;
-  background-image: url(../photo3/hero.png);
+  background-image: url(../../img/hero.png);
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
@@ -317,6 +317,11 @@ img {
   display: flex;
   max-width: 1600px;
   background-size: cover;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../../img/hero@2x.png);
+  }
 }
 
 .hero__title {
@@ -658,7 +663,7 @@ img {
 
 .advantage__list > .advantage__item:nth-child(1)::before {
   content: "";
-  background-image: url(../photo3/antenna.png);
+  background-image: url(../../img/antenna1.png);
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -669,11 +674,17 @@ img {
   width: 70px;
   height: 70px;
   display: block;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .advantage__list > .advantage__item:nth-child(1)::before {
+    background-image: url(../../img/antenna1@2x.png);
+    background-size: 70px;
+  }
 }
 
 .advantage__list > .advantage__item:nth-child(2)::before {
   content: "";
-  background-image: url(../photo3/clock.png);
+  background-image: url(../../img/clock1.png);
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -686,11 +697,17 @@ img {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   display: block;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .advantage__list > .advantage__item:nth-child(2)::before {
+    background-image: url(../../img/clock3@2x.png);
+    background-size: 70px;
+  }
 }
 
 .advantage__list > .advantage__item:nth-child(3)::before {
   content: "";
-  background-image: url(../photo3/diagram.png);
+  background-image: url(../../img/diagram1.png);
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -704,10 +721,16 @@ img {
       flex-shrink: 0;
   display: block;
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .advantage__list > .advantage__item:nth-child(3)::before {
+    background-image: url(../../img/diagram4@2x.png);
+    background-size: 70px;
+  }
+}
 
 .advantage__list > .advantage__item:nth-child(4)::before {
   content: "";
-  background-image: url(../photo3/astronaut.png);
+  background-image: url(../../img/astronaut4.png);
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -720,6 +743,12 @@ img {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   display: block;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .advantage__list > .advantage__item:nth-child(4)::before {
+    background-image: url(../../img/astronaut2@2x.png);
+    background-size: 70px;
+  }
 }
 
 @media screen and (min-width: 768px) {

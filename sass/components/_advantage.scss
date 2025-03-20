@@ -41,7 +41,7 @@
   
   .advantage__list > .advantage__item:nth-child(1)::before {
     content: "";
-    background-image: url(../photo3/antenna.png);
+    background-image: url(../../img/antenna1.png);
     margin-bottom: 30px;
     background-color: $colorbg-team;    ;
     border-radius: 4px;
@@ -52,11 +52,17 @@
     width: 70px;
     height: 70px;
     display: block;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../../img/antenna1@2x.png);
+      background-size: 70px;
+    }
   }
   
   .advantage__list > .advantage__item:nth-child(2)::before {
     content: "";
-    background-image: url(../photo3/clock.png);
+    background-image: url(../../img/clock1.png);
     margin-bottom: 30px;
     background-color: $colorbg-team;    ;
     border-radius: 4px;
@@ -68,11 +74,17 @@
     height: 70px;
     flex-shrink: 0;
     display: block;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../../img/clock3@2x.png);
+      background-size: 70px;
+    }
   }
   
   .advantage__list > .advantage__item:nth-child(3)::before {
     content: "";
-    background-image: url(../photo3/diagram.png);
+    background-image: url(../../img/diagram1.png);
     margin-bottom: 30px;
     background-color: $colorbg-team;
     border-radius: 4px;
@@ -84,11 +96,17 @@
     height: 70px;
     flex-shrink: 0;
     display: block;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../../img/diagram4@2x.png);
+      background-size: 70px;
+    }
   }
   
   .advantage__list > .advantage__item:nth-child(4)::before {
     content: "";
-    background-image: url(../photo3/astronaut.png);
+    background-image: url(../../img/astronaut4.png);
     margin-bottom: 30px;
     background-color: $colorbg-team;
     border-radius: 4px;
@@ -100,6 +118,12 @@
     height: 70px;
     flex-shrink: 0;
     display: block;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../../img/astronaut2@2x.png);
+      background-size: 70px;
+    }
   }
 
   @media screen and (min-width: 768px){
